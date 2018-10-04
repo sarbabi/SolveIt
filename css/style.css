@@ -1,0 +1,15 @@
+//# Empty CSS file for your own CSS
+body{
+    background-color: red;
+}
+#navbar{
+   // position: fixed;
+   // z-index: 1;
+}
+a.image:hover {
+    background-color: crimson;
+    opacity: 0.6;
+}
+.panel:hover{
+    background-color: lightseagreen
+}

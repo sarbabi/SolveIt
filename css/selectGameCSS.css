@@ -1,0 +1,43 @@
+/* 
+    Created on : 13-May-2017, 19:06:22
+    Author     : Mohammad Ali
+*/
+.headGame{
+    color: black; 
+    padding-left: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.headGame:hover{
+    text-decoration: none;
+    color: black;
+}
+.headGame:focus{
+    text-decoration: none;
+    color: black;
+}
+.imageGame{
+    transition: 0.3s;
+}
+.imageGame:hover{
+    filter: brightness(90%);
+    filter: blur(2px);
+}
+#accordion>div{
+    border-radius: 0;
+    margin-bottom: -20px;
+}
+.panel-title{
+    margin-left: -10px;
+    font-size:medium;
+}
+.panel-title>span{
+}
+.panel-title:hover{
+    text-decoration: none;
+    color: black;
+}
+.panel-title:focus{
+    text-decoration: none;
+    color: black;
+}

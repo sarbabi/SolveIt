@@ -1,0 +1,137 @@
+/* 
+    Created on : 09-May-2017, 16:15:42
+    Author     : Mohammad Ali
+*/
+body
+{
+    background-color: #98FB98;
+    color: #000000;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.1875;
+    margin: 0;
+    padding: 0;
+}
+/****************************************/
+#nav{
+    background-color: rgb(60,179,113);
+}
+#collaps{
+    margin-top: 55px;
+}
+#collaps li:last-child{
+    margin-right: 15px;
+}
+#collaps a{
+    color: white;
+    transition: 0.2s;
+}
+#collaps a:hover{
+    text-shadow: 2px 2px 4px #000000;
+}
+/***************************************/
+
+#index{
+    margin-top: -25px;
+    height: 700px;
+    background-image: url('../images/Map.PNG');
+    background-size: cover;
+}
+#getStarted{
+    margin-right: 40px;
+    margin-top: 25px;
+    padding: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#logIn{
+    margin-right: 40px;
+    /*margin-top: 30px;*/
+    padding: 25px 25px 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 230px;
+}
+/*Log in baner*/
+#logIn>div{
+    background-color: #28a4c9;
+    border-radius: 5px;
+    padding: 5px;
+    text-shadow: 2px 2px 4px #000000;
+    width: 100%;
+    margin: 0;
+    color: white;
+}
+#logIn input{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+#logIn input:focus{
+    border-radius: 0;
+    opacity: 1;
+}
+/*Log In button*/
+#logIn #logInBtn{
+    opacity: 1;
+    transition: 0.08s;
+}
+#logIn #logInBtn:hover{
+    /*background-color: lightgrey;*/
+}
+#logIn #logInBtn:focus{
+    border-radius: 10px;
+    opacity: 1;
+}
+#logIn #logInBtn:active{
+    background-color: lightgray;
+    border-bottom: 3px black solid;
+}
+/*Create Account Button*/
+#logIn #logInBtn1{
+    opacity: 1;
+    transition: 0.08s;
+    position: absolute;
+    left: 25px;
+}
+#logIn #logInBtn1:focus{
+    border-radius: 10px;
+    opacity: 1;
+}
+#logIn #logInBtn1:active{
+    background-color: lightgray;
+    border-bottom: 3px black solid;
+}
+#recommend{
+    margin-right: 40px;
+    height: 137px;
+    padding: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#recommend input{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+#recommend input:first-child{
+    opacity: 0.7;
+}
+#recommend input:focus{
+    border-radius: 0;
+}
+#recommend #logInBtn2{
+    transition: 0.08s;
+}
+#recommend #logInBtn2:focus{
+    border-radius: 10px;
+}
+#recommend #logInBtn2:active{
+    background-color: lightgray;
+    border-bottom: 3px black solid;
+}
